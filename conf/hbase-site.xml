@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
+	<!-- Property storing the host name. In this example, the host is called 'ubuntu'. -->
 	<property>
 		<name>hbase.zookeeper.quorum</name>
 		<value>ubuntu</value>
 	</property>
+	<!-- Zookeeper port. Default value -->
 	<property>
 		<name>hbase.zookeeper.property.clientPort</name>
 		<value>2181</value>
